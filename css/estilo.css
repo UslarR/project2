@@ -5,11 +5,112 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 20px;
 }
 
 .container {
     width: 1200px;
     max-width: 90%;
     margin: auto;
+}
+
+/* Encabezado */
+
+header {
+    background: linear-gradient(to bottom, #d9a7c7, #fffcdc);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+/* Header Logo */
+
+header .logo {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+}
+
+header .logo a {
+    color: #000;
+}
+
+header .logo a img {
+    width: 100px;
+}
+
+/* Header menu */
+
+header .menu {
+    display: flex;
+}
+
+header .menu li {
+    margin-right: 50px;
+}
+
+header .menu li:nth-child(3) {
+    margin-right: 0;
+}
+
+header .menu a {
+    color: #a4133c;
+    font-weight: 500;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+header .menu a:hover {
+    color: #a4133c91;
+    border-bottom: 2px solid #a4133ce1;
+}
+
+/* Header info */
+
+header .container-info {
+    display: flex;
+    margin-top: 100px;
+    height: 400px;
+}
+
+header .container-info .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+header .container-info .perfil {
+    width: 300px;
+}
+
+header .container-info .perfil h2 {
+    font-size: 5em;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+header .container-info .perfil a {
+    color: #a4133c;
+    border: 1px solid #a4133c;
+    background: #a4133c27;
+    padding: 15px 30px;
+    display: inline-block;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+header .container-info .perfil a:hover {
+    color: #a4133cbb;
+    background: #a4133c07;
+}
+
+header .container-info img {
+    width: 350px;
 }
