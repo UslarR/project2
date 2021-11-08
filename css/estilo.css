@@ -39,7 +39,7 @@ header .logo {
 }
 
 header .logo a {
-    color: #000;
+    color: #212529;
 }
 
 header .logo a img {
@@ -91,6 +91,7 @@ header .container-info .perfil {
 }
 
 header .container-info .perfil h2 {
+    color: #212529;
     font-size: 5em;
     text-align: justify;
     margin-bottom: 10px;
